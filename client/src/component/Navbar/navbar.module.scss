@@ -1,0 +1,12 @@
+.root{
+  display:flex;
+  justify-content: space-around;
+  background: blue;
+}
+
+a {
+  color: yellow;
+  &.active{
+    color: bisque;
+  }
+}
